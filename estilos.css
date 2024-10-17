@@ -108,6 +108,59 @@ nav.menu a{
     font-size: 1.2rem;
 }
 
+/* /////////////////////////////////////////////////// */
+
+.perfiles{
+    background-color: var(--colorclaro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 0 2rem 0 2rem;
+}
+
+.imgperfil{
+    width: 200px;
+    height: 250px;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex:1; */
+    padding: 1rem;
+    border-radius: 1rem;    
+
+
+    border: 5px solid var(--colorblanco);
+}
+
+
+.enlaces{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 300px;
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media(width<=700px){
     .banner{
         height: auto;
