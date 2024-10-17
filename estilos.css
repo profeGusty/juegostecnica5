@@ -106,7 +106,7 @@ nav.menu a{
     font-size: 1.2rem;
 }
 
-@media(width<448px){
+@media(width<500px){
     /* body{
         background-color: red;
     } */
