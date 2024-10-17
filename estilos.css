@@ -109,9 +109,6 @@ nav.menu a{
 }
 
 @media(width<=700px){
-    /* body{
-        background-color: red;
-    } */
     .banner{
         height: auto;
     }
@@ -120,36 +117,36 @@ nav.menu a{
         object-fit: contain;
     }
 
-nav.menu{
-    padding: 1rem;
-}
+    nav.menu{
+        padding: 1rem;
+    }
 
-nav.menu a{
-    font-size: 1rem;
-    letter-spacing: 5px;
-}
-span{
-    color: var(--colorclaro);
-    font-size: 1.4rem;
-}
-.portadas{
-    position: relative;
-    width: 90%;
-    gap: 2rem;
-    padding: 1rem;
-    margin: 0 auto;
-}
-.juego{
-    width: 100%;
-    padding: .5rem;
-}
-.juego img{
-    width: 100%;
-    height: 250px;
-    border-radius: 1rem;
-}
-.juego h2{
-    font-size: 1rem;
-}
+    nav.menu a{
+        font-size: 1rem;
+        letter-spacing: 5px;
+    }
+    span{
+        color: var(--colorclaro);
+        font-size: 1.4rem;
+    }
+    .portadas{
+        position: relative;
+        width: 90%;
+        gap: 2rem;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+    .juego{
+        width: 100%;
+        padding: .5rem;
+    }
+    .juego img{
+        width: 100%;
+        height: 20rem;
+        border-radius: 1rem;
+    }
+    .juego h2{
+        font-size: 1rem;
+    }
 
 }
